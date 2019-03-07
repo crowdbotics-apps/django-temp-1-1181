@@ -7,6 +7,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'google-api-python-client', 'url': 'http://pypi.python.org/pypi/google-api-python-client/1.6.5'},
 	{'name':'django-leaflet', 'url': 'http://pypi.python.org/pypi/django-leaflet/0.23.0'},
 	{'name':'django-allauth', 'url': 'http://pypi.python.org/pypi/django-allauth/0.34.0'},
 	{'name':'djangorestframework', 'url': 'http://pypi.python.org/pypi/djangorestframework/3.7.7'},
